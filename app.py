@@ -7,7 +7,7 @@ load_dotenv()
 
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
-st.title("💬 Chatbot Claude")
+st.title("💬 Chatbot")
 st.caption("Powered by Groq + Llama 3")
 
 if "messages" not in st.session_state:
